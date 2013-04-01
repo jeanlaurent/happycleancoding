@@ -1,1 +1,20 @@
-test
+---
+layout: main
+---
+{% for post in site.posts limit: 10 %}
+	<a class="blogtitle" href="{{ post.url }}">
+		<h2>{{ post.title }}</h2>
+	</a>
+	<p class="date">
+		{{ post.date | date: "%d/%m/%Y" }}
+	</p>
+	<div class="content">
+		<p>
+			{{ post.content | strip_html | truncatewords: 150 }}
+		</p>
+	</div>
+  	<p>
+  		<a href="{{ post.url }}">Lire l'article...</a>
+  	</p>
+{% endfor %}
+Pour les billets plus anciens voir les <a href="archives.html">archives</a>

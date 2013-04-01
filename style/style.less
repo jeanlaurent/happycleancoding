@@ -1,0 +1,144 @@
+@beige: #EFE9DB;
+@darkgray: #2E2E2E;
+@lightgray: #B0AAAA;
+@almostblack: #191919;
+@black: #000000;
+@blue:#08c;
+
+@font-bigger: 48px;
+@font-big: 30px;
+@font-mid: 16px;
+@font-smallish: 14px;
+@font-small: 12px;
+
+@amaranth: 'Amaranth', sans-serif;
+
+.box-shadow (@x, @y, @blur, @alpha) {
+  @value: @x @y @blur rgba(0, 0, 0, @alpha);
+  box-shadow:         @value;
+  -moz-box-shadow:    @value;
+  -webkit-box-shadow: @value;
+}
+
+body {
+	border-top: 8px solid darken(@beige, 5%);
+ 	background: @beige;
+
+	header {
+		margin-top: 15px;
+		margin-bottom: 20px;
+
+		a {
+			color: @almostblack;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: @almostblack;
+			text-decoration: none;
+		}
+
+		h1 {
+			margin-left: 100px;
+			text-align:left;
+			font-family: @amaranth;
+			font-weight: bold;
+			font-size: @font-bigger;
+		}
+
+	}
+
+	#main {
+		min-height:600px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		background-color: rgba(255, 255, 255, 0.6);
+	    border-color: transparent;
+    	.box-shadow(0, 0, 5px, 0.4);
+	}
+
+	nav {
+		margin-top: 60px;
+
+		a {
+			font-weight:bold;
+			color:@black;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: none;
+			text-shadow: 0px 0px 1px @black;
+		}
+
+		ul {
+			margin-top:15px;
+		}
+
+		li {
+
+			a {
+				color:@blue;
+			}	
+
+			a:hover {
+				text-shadow: 0px 0px 8px @blue;
+			}
+
+			text-align: right;
+			font-size: @font-mid;
+			list-style: none;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+			font-family: @amaranth;
+		}
+
+	}
+
+	#articles {
+		margin-top:5px;
+		padding:10px;
+
+		.blogtitle {
+			color: @almostblack;
+			text-decoration: none;
+		}
+
+		h2 {
+			font-family: @amaranth;
+			font-size: @font-big;
+			margin-bottom:10px;
+		}
+
+		.date {
+			font-size: @font-smallish;
+			color: @lightgray;
+		}
+
+		.content > p {
+			font-size: @font-mid;
+		}
+
+		.list {
+			font-size: @font-mid;	
+		}
+
+	}
+
+	footer {
+		.box-shadow(0,-2px,3px,0.4);
+		width:100%;
+		color: @beige;
+
+		p {
+			padding-top:20px;
+			background-color: @almostblack;
+			text-align:center;
+			font-size: @font-small;
+			padding-bottom: 40px;
+		}
+
+	}
+
+}
