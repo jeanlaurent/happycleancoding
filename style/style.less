@@ -5,7 +5,7 @@
 @black: #000000;
 @blue:#08c;
 
-@font-bigger: 60px;
+@font-bigger: 48px;
 @font-big: 30px;
 @font-mid: 16px;
 @font-smallish: 14px;
@@ -25,8 +25,8 @@ body {
  	background: @beige;
 
 	header {
-		margin-top: 30px;
-		margin-bottom: 40px;
+		margin-top: 15px;
+		margin-bottom: 20px;
 
 		a {
 			color: @almostblack;
@@ -39,7 +39,8 @@ body {
 		}
 
 		h1 {
-			text-align:center;
+			margin-left: 100px;
+			text-align:left;
 			font-family: @amaranth;
 			font-weight: bold;
 			font-size: @font-bigger;
@@ -90,6 +91,7 @@ body {
 			letter-spacing: 2px;
 			text-transform: uppercase;
 			margin-bottom: 5px;
+			font-family: @amaranth;
 		}
 
 	}
@@ -98,20 +100,29 @@ body {
 		margin-top:5px;
 		padding:10px;
 
-		article {
+		.blogtitle {
+			color: @almostblack;
+			text-decoration: none;
+		}
 
-			h2 {
-				font-family: @amaranth;
-				font-size:@font-big;
-				margin-bottom:10px;
-			}
+		h2 {
+			font-family: @amaranth;
+			font-size: @font-big;
+			margin-bottom:10px;
+		}
 
-			.date {
-				font-size: @font-smallish;
-				color: @lightgray;
-			}
+		.date {
+			font-size: @font-smallish;
+			color: @lightgray;
+		}
 
-		}	
+		.content > p {
+			font-size: @font-mid;
+		}
+
+		.list {
+			font-size: @font-mid;	
+		}
 
 	}
 

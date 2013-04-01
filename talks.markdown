@@ -8,12 +8,18 @@ title: Talks
 
 Cette page regroupe des présentations que j'ai pu donner, ainsi que quelques articles parus dans la presse. 
 
+* 2013
+  * CodeStory @ Devoxx France France avec David Gageot, Eric Lemerdy & Sebastian Lemerdy, Xavier Hanin, Christophe Labouisse
+  * "Panorama des outils de tests pour application web moderne" @ Devoxx France avec Pierre Gayvalet
+  * "Stratégie de testing pour code legacy" @ Devoxx France avec David Gageot
+  * Fier d'être développeur & Software Craftsmanship
 * 2012
+  * CodeStory @ Devoxx World avec David Gageot, Eric Lemerdy & Sebastian Lemerdy
   * Coderetreat
   * Extreme Startup @ Xebia
   * MongoDB @ Urbandive : @ ParisJUg avec Yves Amsellem, Benoit Guerout
   * [Interview CodeStory @ Devoxx](http://www.parleys.com/#st=5&id=3174&sl=0)
-  * Interview with Dwight Merriman @ MongoDB Day
+  * [Interview with Dwight Merriman](http://blog.xebia.fr/2012/03/07/qa-with-dwight-merriman/) @ MongoDB Day
   * Développeur apres 40 ans @ ParisJUg
   * CodeStory Grand Finale @ Devoxx avec David Gageot, Eric Lemerdy, Sebastian Lemerdy
   * CodeStory Second Round @ ParisJug avec David Gageot
