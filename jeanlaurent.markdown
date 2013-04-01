@@ -6,7 +6,7 @@ status: publish
 title: Author
 ---
 
-<img class="img-polaroid" src="img/jl/jl_new_256x208.png" alt="Jean-Laurent de Morlhon" style="float:left; margin: 10px "/>
+<img id="jl" class="img-polaroid" src="img/jl/jl_new_256x208.png" alt="Jean-Laurent de Morlhon"/>
 
 My name is Jean-Laurent de Morlhon, I'm 38 years old. I'm dealing with software development on various level for more than 15 years.
 
