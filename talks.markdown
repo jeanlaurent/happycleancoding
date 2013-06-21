@@ -21,7 +21,7 @@ Cette page regroupe des présentations que j'ai pu donner, ainsi que quelques ar
 * 2012
   * Coffee Machine Code Mash @ Agile Tour Montpellier
   * Coffee Machine Code Mash @ Agile Tour Paris
-  * Software Craftsmanship en pratique @ Agile Tour Lille
+  * [Software Craftsmanship en pratique](http://www.slideshare.net/jl.morlhon/software-craftsmanship-en-pratique-agiletour) @ Agile Tour Lille
   * Le développeur post-moderne @ [ITSMF](http://www.itsmf.fr/)
   * CodeStory @ Devoxx World avec David Gageot, Eric Lemerdy & Sebastian Lemerdy.
   * Coderetreat @ Xebia
@@ -40,6 +40,7 @@ Cette page regroupe des présentations que j'ai pu donner, ainsi que quelques ar
 
 * 2011
   * [Global Day Of Coderetreat](http://blog.xebia.fr/2011/11/29/coderetreat/) @ Xebia avec Cyril Martraire.
+  * [Giled Rose](https://github.com/xebia-france/gildedrose-kata) @ Xebia
   * [Interview with Uncle Bob Martin](http://blog.xebia.fr/2011/05/25/interview-avec-robert-martin/) @ Xebia
   * [Software Craftsmanship en pratique](http://www.slideshare.net/jl.morlhon/software-craftsmanship-en-pratique-agiletour) @ Agile Tour Paris
   * [Software Craftsmanship en pratique](http://www.slideshare.net/jl.morlhon/software-craftsmanship-en-pratique-agiletour) @ Agile Tour Montpellier
