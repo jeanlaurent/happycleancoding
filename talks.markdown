@@ -8,6 +8,12 @@ title: Talks
 
 Cette page regroupe des présentations que j'ai pu donner, ainsi que quelques articles parus dans la presse. 
 
+
+* Prochain talks
+  * LeanKanban - 3 octobre 2013 
+  * Codeur En Seine - 17 octobre 2013
+  * SoftShake - Comment tester une application html5 ?
+
 * 2013
   * "Stratégie de testing pour code legacy" @ BreizhCamp avec David Gageot
   * ["BDD & application web moderne"](https://github.com/jeanlaurent/CucumberAndZombie/blob/master/CucumberZombie-AgileFrance2013.pdf?raw=true) @ Agile France 2013
