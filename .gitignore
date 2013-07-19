@@ -1,2 +1,6 @@
-_site/
+_oldPosts/
+_style.txt
+server/
+wp-uploads/
 .DS_Store
+_site/
