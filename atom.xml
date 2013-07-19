@@ -1,17 +1,17 @@
 ---
 layout: nil
-blogurl: http://growingsoftware.morlhon.net
+blogurl: http://happycleancoding.com
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>./growingSoftware</title>
-	<link href="{{ blogurl }}atom.xml" rel="self" />
-	<link href="{{ blogurl }}" />
+	<title>./happycleancoding</title>
+	<link href="{{ blogurl }}/atom.xml" rel="self" />
+	<link href="{{ blogurl }}/" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>{{ blogurl }}</id>
 	<author>
 		<name>Jean-Laurent de Morlhon</name>
-		<email>jeanlaurent@morlhon.net</email>
+		<email>jeanlaurent at morlhon.net</email>
 	</author>
 	{% for post in site.posts %}
 	<entry>
