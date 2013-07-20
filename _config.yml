@@ -1,4 +1,8 @@
 safe:        true
-auto:        true
 pygments:    true
 permalink: /:title.html
+
+author :
+  name : Jean-Laurent de Morlhon
+  email : jeanlaurent@morlhon.net
+production_url : http://happycleancoding.com
