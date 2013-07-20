@@ -22,5 +22,3 @@ A court terme :
  A long terme, comme beaucoup d'entre nous, j'aimerais que mes revenus soit plus lié à la vente de logiciel plus que du conseil, le temps que je vais dégager me permettra de le faire.
 
 Je suis déjà pas mal pris à la rentrée avec du freelancing, mais si vous cherchez un développeur pour booster une équipe, pair-programmer avec vous ou des formations sur les techniques de codes avancées je suis votre homme.
-
-
