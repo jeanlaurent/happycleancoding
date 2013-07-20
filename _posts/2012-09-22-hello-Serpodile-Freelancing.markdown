@@ -11,12 +11,12 @@ Ces experiences ont été  enrichissantes, [Xebia](http://www.xebia.fr/) est une
 
 Le role de directeur technique est essentiellement tourné vers les autres: les clients et les Xebians. Pour les premiers vous réussisez leur projets pour les autres vous les conseillez dans leur carriere. Il est essentiel de faire un peu de marketing, de lancer de nouvelles offres, de faire le pompier sur une mission ou deux en plus. C'est un job à plus que plein temps qui laisse peu de place pour le reste.
 
-Nottament il était de plus en plus difficile d'aider la société de ma femme, [Serpodile](http://serpodile.com), dont l'activité croit de plus de plus. A (presque) 40 ans, je ne veux pas avoir le regret de ne pas avoir tenter ma propre activité, sans me reposer sur les autres. Je vais avoir plus de temps pour aider Serpodile à grandir tout en ayant une activité de freelance sur les sujets qui me tiennent à coeur: écrire du logiciel utile de qualité et rapidement.
+Nottament il était de plus en plus difficile d'aider la société de ma femme, [Serpodile](http://serpodile.com), dont l'activité croit de plus de plus. A (presque) 40 ans, je ne veux pas avoir le regret de ne pas avoir tenté ma propre activité, sans me reposer sur les autres. Je vais avoir plus de temps pour aider Serpodile à grandir tout en ayant une activité de freelance sur les sujets qui me tiennent à coeur: écrire du logiciel utile de qualité et rapidement.
 
 A court terme :
  * Avec David Gageot, on vous prépare un [codestory](http://code-story.net) plus accessible et plus important, stay tuned.
- * Je serais à LeanKanban.fr (paris) pour défendre le job de programmeur, à softshake (geneve) pour parler tests et html5 et à Codeur en seine.
- * Des coderetreats -> la prochaine le 14 septembre sur Paris.
+ * Je serais à [LeanKanban.fr](http://leankanban.fr) (paris) pour défendre le job de programmeur, à [soft-shake](http://soft-shake.ch/2013) (geneve) pour parler tests et html5 et à [Codeurs en seine](http://www.codeursenseine.com).
+ * Des [coderetreats](http://coderetreat.org/about) -> la prochaine le 14 septembre sur Paris.
  * Des applications sur tablettes pour compléter la [collection existante](https://itunes.apple.com/fr/app/cursiveshd/id611725294) de Serpodile.
 
  A long terme, comme beaucoup d'entre nous, j'aimerais que mes revenus soit plus lié à la vente de logiciel plus que du conseil, le temps que je vais dégager me permettra de le faire.
