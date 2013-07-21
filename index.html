@@ -1,21 +1,35 @@
 ---
 layout: main
-firstPost: site.posts[0]
 ---
-	<a class="blogtitle" href="{{ post.url }}">
-		<h2>{{ site.posts[0].title }}</h2>
-	</a>
-	<p class="date">
-		{{ site.posts[0].date | date: "%d/%m/%Y" }}
-	</p>
-	<div class="content">
-		<p>
-			{{ site.posts[0].content }}
-		</p>
-	</div>
-{% for post in site.posts[0..] limit: 10 %}
-  	<p>
-  		<a href="{{ post.url }}">{{post.title}}</a>
-  	</p>
-{% endfor %}
-Pour les billets plus anciens voir les <a href="archives.html">archives</a>
+{% assign firstPost = site.posts | first %}
+				<article>
+					<h2>{{ firstPost.title }}</h2>
+					<p class="date">{{ firstPost.date | date: "%d/%m/%Y" }}</p>
+					<div class="content">
+						{{ firstPost.content }}
+					</div>
+				</article>
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'happycleancoding';
+				    var disqus_title = '{{ firstPost.title }}';
+				    var disqus_identifier = '{{ firstPost.url }}';
+				    var disqus_url='{{site.production_url}}{{firstPost.url}}';
+
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+{% if sites.posts | size > 1 %}
+	<h2>Billets récents</h2>
+	{% for post in site.posts limit: 11 %}
+		{% unless post.title == firstPost.title %}
+	  	<p>
+	  		<a href="{{ post.url }}">{{post.title}}</a>
+	  	</p>
+	  	{% endunless %}
+	{% endfor %}
+	Pour les billets plus anciens voir les <a href="archives.html">archives</a>
+{% endif %}

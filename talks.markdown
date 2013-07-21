@@ -1,11 +1,9 @@
 ---
 date: '2009-11-04 17:15:39'
 layout: main
-slug: talk
-status: publish
 title: Talks
 ---
-
+<h2>Talks</h2>
 Cette page regroupe des présentations que j'ai pu donner, ainsi que quelques articles parus dans la presse. 
 
 
