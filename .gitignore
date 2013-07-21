@@ -4,3 +4,4 @@ server/
 wp-uploads/
 .DS_Store
 _site/
+node_modules
